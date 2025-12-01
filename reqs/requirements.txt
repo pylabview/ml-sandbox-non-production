@@ -1,0 +1,10 @@
+# requirements.txt
+jupyterlab
+pandas
+seaborn
+requests
+scikit-learn
+tensorflow
+tensorflow-metal
+polars
+duckdb
