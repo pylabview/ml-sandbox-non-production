@@ -1,18 +1,14 @@
 {
-  "source_combined": "../cache_data/session_features_2020-Jan_to_2020-Mar_T5_LEAKFREE_ENRICHED_COMBINED_TARGETS.parquet",
+  "source_combined": "../cache_data/session_features_2020-Apr_to_2020-Apr_T5_LEAKFREE_ENRICHED_COMBINED_TARGETS.parquet",
   "T": 5,
-  "rows_estimate": 39894892,
+  "rows_estimate": 11629595,
   "duplicate_rows_within_month": 0,
-  "sessions_reused_across_months": 9520,
+  "sessions_reused_across_months": 0,
   "months_present": [
-    "2020-01",
-    "2020-02",
-    "2020-03"
+    "2020-04"
   ],
   "months_expected": [
-    "2020-01",
-    "2020-02",
-    "2020-03"
+    "2020-04"
   ],
   "months_missing": [],
   "clip_recommendations_json": "../cache_data/cell9_2_clip_recs_T5.json",
