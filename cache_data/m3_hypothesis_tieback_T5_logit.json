@@ -1,0 +1,52 @@
+{
+  "t_min": 5,
+  "model_key": "logit",
+  "model_name": "BaselineLogit",
+  "H1_inverted_U": {
+    "pdp_peak_breadth": 1,
+    "drop_peak_to_tail": 0.06844432651996613,
+    "drop_peak_to_b1": 0.0,
+    "u_score": 0.03422216325998306,
+    "ice_peak_breadths": {
+      "n_rows": 800,
+      "share_peak_in_[1,2,3]": 1.0,
+      "median_peak": 1,
+      "iqr_peak": [
+        1,
+        1
+      ],
+      "post_peak_monotone_down_pct": 1.0
+    },
+    "evidence": "moderate",
+    "checks": {
+      "ok_peak": true,
+      "ok_drop": false,
+      "ok_ice": true
+    }
+  },
+  "H2_slack_plateau": {
+    "turn_slack": 0.5750000228484472,
+    "early_gain": 0.054082719322732314,
+    "late_gain": 0.0572114415084743,
+    "evidence": "weak",
+    "checks": {
+      "pos_early": true,
+      "flat_late": false,
+      "reasonable_turn": false
+    }
+  },
+  "H3_interaction": {
+    "p_fast_focused": 0.3965325653553009,
+    "p_slow_scatter": 0.1758272349834442,
+    "delta_slack_low": 0.03564834098021189,
+    "delta_slack_high": 0.030256658792495728,
+    "synergy": 0.005391682187716164,
+    "fast_vs_wide_gap_at_high_slack": 0.19044867157936096,
+    "evidence": "strong",
+    "checks": {
+      "ff_better": true,
+      "synergy_pos": true,
+      "gap_ff": true
+    }
+  }
+}
