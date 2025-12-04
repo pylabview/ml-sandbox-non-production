@@ -1,0 +1,53 @@
+{
+  "t_min": 5,
+  "target": "PurchaseInSession",
+  "logstd": {
+    "EventsPerMin": {
+      "mu": 2.145794580712947,
+      "sd": 1.5470178575096731
+    },
+    "Breadth_T": {
+      "mu": 1.0205337194196413,
+      "sd": 0.4292649093360001
+    }
+  },
+  "std": {
+    "SessionDurationMin": {
+      "mu": 22.623628419716457,
+      "sd": 633.2120402475126
+    },
+    "MeanLogPrice_1min": {
+      "mu": 5.08051304393036,
+      "sd": 1.2251825849134563
+    }
+  },
+  "ohe": {
+    "category_top": [
+      "UNK"
+    ],
+    "DayPart": [
+      "afternoon",
+      "evening",
+      "morning",
+      "night"
+    ],
+    "DayOfWeek": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "binary_passthrough": [
+    "EarlyCart_T",
+    "AnySwitch_T",
+    "ZeroBreadth_T",
+    "FastFocused_T"
+  ],
+  "keep_as_is": [
+    "PaceSlack_T"
+  ]
+}

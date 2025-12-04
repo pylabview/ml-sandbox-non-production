@@ -1,0 +1,74 @@
+{
+  "created_at_utc": "2025-12-04T03:20:10Z",
+  "python": "3.12.10",
+  "platform": "macOS-26.1-arm64-arm-64bit",
+  "polars_version": "1.35.2",
+  "t_min": 5,
+  "target": "PurchaseInSession",
+  "files": {
+    "state_json": "m4_transformer_state_T5.json",
+    "schema_manifest": "m4_feature_schema_T5_LOCKED.json",
+    "train_xy": "m4_Xy_T5_train_OctNov_TRANSFORMED.parquet",
+    "val_xy": "m4_Xy_T5_val_2019Dec_TRANSFORMED.parquet",
+    "test_xy": "m4_Xy_T5_test_JanMar_TRANSFORMED.parquet",
+    "x_columns_json": "m4_X_columns_T5_LOCKED.json",
+    "x_columns_csv": "m4_X_columns_T5_LOCKED.csv"
+  },
+  "hashes": {
+    "state_json_sha256": "0a1d2d6a61e9d5a015b0737b1db84ec1e4097bcf7aaea8a12365c93ad3178d3e",
+    "schema_manifest_sha256": "813f330bfab670b71324598a4236cfbed89accc432fe41fa86083134c535883d",
+    "train_xy_sha256": "9c13a2f939581ccaa2e2e0c242202fd36dd72dc475f64502a79230820e39c6cf",
+    "val_xy_sha256": "aa2b4c4ba6f3751ac8d97566898d2afc7023e2a4ada1f7ad0e8dc8f55e117878",
+    "test_xy_sha256": "ad7c221973c49543c856ebd4f86ea4908da62d9aab277fd32c491a3244b23602"
+  },
+  "feature_order": {
+    "n_features": 21,
+    "X_columns": [
+      "EventsPerMin",
+      "Breadth_T",
+      "SessionDurationMin",
+      "MeanLogPrice_1min",
+      "PaceSlack_T",
+      "EarlyCart_T",
+      "AnySwitch_T",
+      "ZeroBreadth_T",
+      "FastFocused_T",
+      "OHE_category_top__UNK",
+      "OHE_DayPart__afternoon",
+      "OHE_DayPart__evening",
+      "OHE_DayPart__morning",
+      "OHE_DayPart__night",
+      "OHE_DayOfWeek__1",
+      "OHE_DayOfWeek__2",
+      "OHE_DayOfWeek__3",
+      "OHE_DayOfWeek__4",
+      "OHE_DayOfWeek__5",
+      "OHE_DayOfWeek__6",
+      "OHE_DayOfWeek__7"
+    ]
+  },
+  "transformer_state": {
+    "logstd": [
+      "EventsPerMin",
+      "Breadth_T"
+    ],
+    "std": [
+      "SessionDurationMin",
+      "MeanLogPrice_1min"
+    ],
+    "ohe": {
+      "category_top": 1,
+      "DayPart": 4,
+      "DayOfWeek": 7
+    },
+    "binary_passthrough": [
+      "EarlyCart_T",
+      "AnySwitch_T",
+      "ZeroBreadth_T",
+      "FastFocused_T"
+    ],
+    "keep_as_is": [
+      "PaceSlack_T"
+    ]
+  }
+}

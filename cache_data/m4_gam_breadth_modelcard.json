@@ -1,0 +1,22 @@
+{
+  "t_min": 5,
+  "target": "PurchaseInSession",
+  "train_rows": 23016650,
+  "val_rows": 15575607,
+  "class_weights": {
+    "w0": 0.5324508230222865,
+    "w1": 8.203964852549516
+  },
+  "spline": {
+    "degree": 3,
+    "n_interior_knots": 6,
+    "x_lo": 1.0,
+    "x_hi": 9.0
+  },
+  "metrics_val": {
+    "pr_auc": 0.06083981080552704,
+    "roc_auc": 0.48416078611641084,
+    "log_loss": 0.6617706296858824
+  },
+  "model_file": "m4_gam_breadth_model.pkl"
+}

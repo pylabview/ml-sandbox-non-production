@@ -1,0 +1,38 @@
+{
+  "t_min": 5,
+  "model": "HistGB",
+  "chosen_by": "cost",
+  "threshold": 0.19565217196941376,
+  "grid_size": 57,
+  "val_selection_summary": {
+    "threshold": 0.19565217196941376,
+    "criterion": "cost",
+    "val_counts": {
+      "TP": 804646,
+      "FP": 367492,
+      "TN": 14238000,
+      "FN": 165469,
+      "P": 970115,
+      "N": 14605492
+    },
+    "val_metrics": {
+      "precision": 0.6864771895459408,
+      "recall": 0.829433623848719,
+      "specificity": 0.9748387798233705,
+      "f1": 0.7512147258050286,
+      "pr_auc": 0.7974237573010557,
+      "roc_auc": 0.9810771774120042,
+      "log_loss": 0.07707105202682496,
+      "brier": 0.02242286689579487,
+      "base_rate": 0.06228424998139719
+    },
+    "val_cost": {
+      "C_FP": 1.0,
+      "C_FN": 5.0,
+      "BENEFIT_TP": 0.0,
+      "expected": 1194837.0,
+      "net_value": -1194837.0
+    },
+    "grid_size": 57
+  }
+}

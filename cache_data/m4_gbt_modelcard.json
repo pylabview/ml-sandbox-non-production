@@ -1,0 +1,29 @@
+{
+  "t_min": 5,
+  "target": "PurchaseInSession",
+  "model_kind": "sklearn_hgb",
+  "train_rows": 23016650,
+  "val_rows": 15575607,
+  "scale_pos_weight": 15.407929705099033,
+  "params": {
+    "learning_rate": 0.06,
+    "max_iter": 600,
+    "l2": 1.0,
+    "min_samples_leaf": 200
+  },
+  "early_stopping": {
+    "used": false,
+    "best_iteration": null
+  },
+  "metrics_val": {
+    "pr_auc": 0.799184851478633,
+    "roc_auc": 0.9810721379054851,
+    "log_loss": 0.19693471889492628,
+    "n": 15575607
+  },
+  "artifacts": {
+    "model_file": "m4_gbt_model.pkl",
+    "feature_importance": "m4_gbt_feature_importance.json"
+  },
+  "runtime_min": 4.63
+}

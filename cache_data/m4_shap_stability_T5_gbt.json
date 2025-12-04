@@ -1,0 +1,273 @@
+{
+  "t_min": 5,
+  "model": "HistGB",
+  "months": [
+    "2020-01",
+    "2020-02",
+    "2020-03"
+  ],
+  "per_month_importance": {
+    "2020-01": [
+      {
+        "feature": "z_SessionDurationMin",
+        "importance": 0.3324509263038635,
+        "share": 0.5226379473785394,
+        "rank": 1
+      },
+      {
+        "feature": "zlog_EventsPerMin",
+        "importance": 0.10221162438392639,
+        "share": 0.16068438779868352,
+        "rank": 2
+      },
+      {
+        "feature": "zlog_Breadth_T",
+        "importance": 0.08671633154153824,
+        "share": 0.13632461796675027,
+        "rank": 3
+      },
+      {
+        "feature": "PaceSlack_T",
+        "importance": 0.06840705871582031,
+        "share": 0.10754105922015615,
+        "rank": 4
+      },
+      {
+        "feature": "EarlyCart_T",
+        "importance": 0.026137322187423706,
+        "share": 0.04108984315333499,
+        "rank": 5
+      },
+      {
+        "feature": "OHE:DayOfWeek",
+        "importance": 0.007359409850323573,
+        "share": 0.011569547724992508,
+        "rank": 6
+      },
+      {
+        "feature": "OHE:DayPart",
+        "importance": 0.006636377132963389,
+        "share": 0.010432885723505817,
+        "rank": 7
+      },
+      {
+        "feature": "z_MeanLogPrice_1min",
+        "importance": 0.002574882935732603,
+        "share": 0.004047910310351499,
+        "rank": 8
+      },
+      {
+        "feature": "AnySwitch_T",
+        "importance": 0.002360694343224168,
+        "share": 0.003711189677369445,
+        "rank": 9
+      },
+      {
+        "feature": "ZeroBreadth_T",
+        "importance": 0.0011750457342714071,
+        "share": 0.001847260579067245,
+        "rank": 10
+      },
+      {
+        "feature": "FastFocused_T",
+        "importance": 7.210243347799405e-05,
+        "share": 0.00011335046724909235,
+        "rank": 11
+      },
+      {
+        "feature": "OHE:category_top",
+        "importance": 0.0,
+        "share": 0.0,
+        "rank": 12
+      }
+    ],
+    "2020-02": [
+      {
+        "feature": "z_SessionDurationMin",
+        "importance": 0.3445006310939789,
+        "share": 0.5080948845941495,
+        "rank": 1
+      },
+      {
+        "feature": "zlog_EventsPerMin",
+        "importance": 0.10658802837133408,
+        "share": 0.15720386869096065,
+        "rank": 2
+      },
+      {
+        "feature": "zlog_Breadth_T",
+        "importance": 0.10004418343305588,
+        "share": 0.14755252457539805,
+        "rank": 3
+      },
+      {
+        "feature": "PaceSlack_T",
+        "importance": 0.0721944123506546,
+        "share": 0.10647763255226562,
+        "rank": 4
+      },
+      {
+        "feature": "EarlyCart_T",
+        "importance": 0.026234298944473267,
+        "share": 0.03869227482188359,
+        "rank": 5
+      },
+      {
+        "feature": "ZeroBreadth_T",
+        "importance": 0.008419726975262165,
+        "share": 0.012418033001057247,
+        "rank": 6
+      },
+      {
+        "feature": "OHE:DayOfWeek",
+        "importance": 0.007946160061692353,
+        "share": 0.011719581664309996,
+        "rank": 7
+      },
+      {
+        "feature": "OHE:DayPart",
+        "importance": 0.007170788012444973,
+        "share": 0.010576005901824947,
+        "rank": 8
+      },
+      {
+        "feature": "z_MeanLogPrice_1min",
+        "importance": 0.0026719546876847744,
+        "share": 0.003940795418483982,
+        "rank": 9
+      },
+      {
+        "feature": "AnySwitch_T",
+        "importance": 0.002190233441069722,
+        "share": 0.0032303174712355926,
+        "rank": 10
+      },
+      {
+        "feature": "FastFocused_T",
+        "importance": 6.378940452123061e-05,
+        "share": 9.408130843076027e-05,
+        "rank": 11
+      },
+      {
+        "feature": "OHE:category_top",
+        "importance": 0.0,
+        "share": 0.0,
+        "rank": 12
+      }
+    ],
+    "2020-03": [
+      {
+        "feature": "z_SessionDurationMin",
+        "importance": 0.3509088456630707,
+        "share": 0.5197661404113811,
+        "rank": 1
+      },
+      {
+        "feature": "zlog_EventsPerMin",
+        "importance": 0.11054913699626923,
+        "share": 0.16374536855514465,
+        "rank": 2
+      },
+      {
+        "feature": "zlog_Breadth_T",
+        "importance": 0.09246017038822174,
+        "share": 0.13695199336926328,
+        "rank": 3
+      },
+      {
+        "feature": "PaceSlack_T",
+        "importance": 0.0716908797621727,
+        "share": 0.10618852256707978,
+        "rank": 4
+      },
+      {
+        "feature": "EarlyCart_T",
+        "importance": 0.02831806242465973,
+        "share": 0.04194471069140944,
+        "rank": 5
+      },
+      {
+        "feature": "OHE:DayOfWeek",
+        "importance": 0.008222095948440256,
+        "share": 0.012178567539776875,
+        "rank": 6
+      },
+      {
+        "feature": "OHE:DayPart",
+        "importance": 0.007587618369143456,
+        "share": 0.011238779424873394,
+        "rank": 7
+      },
+      {
+        "feature": "z_MeanLogPrice_1min",
+        "importance": 0.0029540800023823977,
+        "share": 0.004375582947769303,
+        "rank": 8
+      },
+      {
+        "feature": "AnySwitch_T",
+        "importance": 0.0023468935396522284,
+        "share": 0.003476218431474604,
+        "rank": 9
+      },
+      {
+        "feature": "FastFocused_T",
+        "importance": 9.054555266629905e-05,
+        "share": 0.00013411606182753605,
+        "rank": 10
+      },
+      {
+        "feature": "ZeroBreadth_T",
+        "importance": 0.0,
+        "share": 0.0,
+        "rank": 11
+      },
+      {
+        "feature": "OHE:category_top",
+        "importance": 0.0,
+        "share": 0.0,
+        "rank": 12
+      }
+    ]
+  },
+  "spearman_rho": {
+    "matrix": [
+      [
+        1.0,
+        0.9300699300699302,
+        0.9790209790209792
+      ],
+      [
+        0.9300699300699302,
+        1.0,
+        0.8531468531468532
+      ],
+      [
+        0.9790209790209792,
+        0.8531468531468532,
+        1.0
+      ]
+    ],
+    "rows": [
+      "2020-01",
+      "2020-02",
+      "2020-03"
+    ],
+    "cols": [
+      "2020-01",
+      "2020-02",
+      "2020-03"
+    ]
+  },
+  "top10_overlap": {
+    "2020-01__2020-02": {
+      "top10_jaccard": 1.0
+    },
+    "2020-01__2020-03": {
+      "top10_jaccard": 0.8181818181818182
+    },
+    "2020-02__2020-03": {
+      "top10_jaccard": 0.8181818181818182
+    }
+  }
+}

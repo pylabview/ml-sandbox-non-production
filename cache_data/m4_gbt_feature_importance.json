@@ -1,0 +1,107 @@
+[
+  {
+    "feature": "zlog_EventsPerMin",
+    "gain": 0.0,
+    "split": 0
+  },
+  {
+    "feature": "zlog_Breadth_T",
+    "gain": 0.0,
+    "split": 0
+  },
+  {
+    "feature": "z_SessionDurationMin",
+    "gain": 0.0,
+    "split": 0
+  },
+  {
+    "feature": "z_MeanLogPrice_1min",
+    "gain": 0.0,
+    "split": 0
+  },
+  {
+    "feature": "PaceSlack_T",
+    "gain": 0.0,
+    "split": 0
+  },
+  {
+    "feature": "EarlyCart_T",
+    "gain": 0.0,
+    "split": 0
+  },
+  {
+    "feature": "AnySwitch_T",
+    "gain": 0.0,
+    "split": 0
+  },
+  {
+    "feature": "ZeroBreadth_T",
+    "gain": 0.0,
+    "split": 0
+  },
+  {
+    "feature": "FastFocused_T",
+    "gain": 0.0,
+    "split": 0
+  },
+  {
+    "feature": "OHE_category_top__UNK",
+    "gain": 0.0,
+    "split": 0
+  },
+  {
+    "feature": "OHE_DayPart__afternoon",
+    "gain": 0.0,
+    "split": 0
+  },
+  {
+    "feature": "OHE_DayPart__evening",
+    "gain": 0.0,
+    "split": 0
+  },
+  {
+    "feature": "OHE_DayPart__morning",
+    "gain": 0.0,
+    "split": 0
+  },
+  {
+    "feature": "OHE_DayPart__night",
+    "gain": 0.0,
+    "split": 0
+  },
+  {
+    "feature": "OHE_DayOfWeek__1",
+    "gain": 0.0,
+    "split": 0
+  },
+  {
+    "feature": "OHE_DayOfWeek__2",
+    "gain": 0.0,
+    "split": 0
+  },
+  {
+    "feature": "OHE_DayOfWeek__3",
+    "gain": 0.0,
+    "split": 0
+  },
+  {
+    "feature": "OHE_DayOfWeek__4",
+    "gain": 0.0,
+    "split": 0
+  },
+  {
+    "feature": "OHE_DayOfWeek__5",
+    "gain": 0.0,
+    "split": 0
+  },
+  {
+    "feature": "OHE_DayOfWeek__6",
+    "gain": 0.0,
+    "split": 0
+  },
+  {
+    "feature": "OHE_DayOfWeek__7",
+    "gain": 0.0,
+    "split": 0
+  }
+]

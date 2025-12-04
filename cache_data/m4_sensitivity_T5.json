@@ -1,0 +1,178 @@
+{
+  "t_min": 5,
+  "collinearity_variants": {
+    "baseline": {
+      "cols_used": [
+        "zlog_EventsPerMin",
+        "zlog_Breadth_T",
+        "z_SessionDurationMin",
+        "z_MeanLogPrice_1min",
+        "PaceSlack_T",
+        "EarlyCart_T",
+        "AnySwitch_T",
+        "ZeroBreadth_T",
+        "FastFocused_T",
+        "OHE_category_top__UNK",
+        "OHE_DayPart__afternoon",
+        "OHE_DayPart__evening",
+        "OHE_DayPart__morning",
+        "OHE_DayPart__night",
+        "OHE_DayOfWeek__1",
+        "OHE_DayOfWeek__2",
+        "OHE_DayOfWeek__3",
+        "OHE_DayOfWeek__4",
+        "OHE_DayOfWeek__5",
+        "OHE_DayOfWeek__6",
+        "OHE_DayOfWeek__7"
+      ],
+      "VAL": {
+        "pr_auc": 0.5042382446140872,
+        "roc_auc": 0.9335609350035535,
+        "log_loss": 0.3098165168411083,
+        "brier": 0.09150946140289307,
+        "n": 15575607,
+        "pos_rate": 0.06228424998139719
+      },
+      "TEST": {
+        "pr_auc": 0.5166002317234781,
+        "roc_auc": 0.940544557075085,
+        "log_loss": 0.27284113223987083,
+        "brier": 0.08185861259698868,
+        "n": 39894892,
+        "pos_rate": 0.05749753627607264
+      }
+    },
+    "drop_breadth": {
+      "cols_used": [
+        "zlog_EventsPerMin",
+        "z_SessionDurationMin",
+        "z_MeanLogPrice_1min",
+        "PaceSlack_T",
+        "EarlyCart_T",
+        "AnySwitch_T",
+        "ZeroBreadth_T",
+        "FastFocused_T",
+        "OHE_category_top__UNK",
+        "OHE_DayPart__afternoon",
+        "OHE_DayPart__evening",
+        "OHE_DayPart__morning",
+        "OHE_DayPart__night",
+        "OHE_DayOfWeek__1",
+        "OHE_DayOfWeek__2",
+        "OHE_DayOfWeek__3",
+        "OHE_DayOfWeek__4",
+        "OHE_DayOfWeek__5",
+        "OHE_DayOfWeek__6",
+        "OHE_DayOfWeek__7"
+      ],
+      "VAL": {
+        "pr_auc": 0.5021742408064492,
+        "roc_auc": 0.9346607785650496,
+        "log_loss": 0.30395160408703936,
+        "brier": 0.08952735364437103,
+        "n": 15575607,
+        "pos_rate": 0.06228424998139719
+      },
+      "TEST": {
+        "pr_auc": 0.5138742909032348,
+        "roc_auc": 0.9423678686870864,
+        "log_loss": 0.2700522995957529,
+        "brier": 0.08071480691432953,
+        "n": 39894892,
+        "pos_rate": 0.05749753627607264
+      }
+    },
+    "slack_only": {
+      "cols_used": [
+        "zlog_EventsPerMin",
+        "z_SessionDurationMin",
+        "z_MeanLogPrice_1min",
+        "PaceSlack_T",
+        "EarlyCart_T",
+        "AnySwitch_T",
+        "ZeroBreadth_T",
+        "FastFocused_T",
+        "OHE_category_top__UNK",
+        "OHE_DayPart__afternoon",
+        "OHE_DayPart__evening",
+        "OHE_DayPart__morning",
+        "OHE_DayPart__night",
+        "OHE_DayOfWeek__1",
+        "OHE_DayOfWeek__2",
+        "OHE_DayOfWeek__3",
+        "OHE_DayOfWeek__4",
+        "OHE_DayOfWeek__5",
+        "OHE_DayOfWeek__6",
+        "OHE_DayOfWeek__7"
+      ],
+      "VAL": {
+        "pr_auc": 0.5021742408064492,
+        "roc_auc": 0.9346607785650496,
+        "log_loss": 0.30395160408703936,
+        "brier": 0.08952735364437103,
+        "n": 15575607,
+        "pos_rate": 0.06228424998139719
+      },
+      "TEST": {
+        "pr_auc": 0.5138742909032348,
+        "roc_auc": 0.9423678686870864,
+        "log_loss": 0.2700522995957529,
+        "brier": 0.08071480691432953,
+        "n": 39894892,
+        "pos_rate": 0.05749753627607264
+      }
+    }
+  },
+  "censoring": {
+    "model": "HistGB",
+    "val": {
+      "full": {
+        "n": 3209660,
+        "metrics": {
+          "pr_auc": 0.5528088563554888,
+          "roc_auc": 0.8434989912191921,
+          "log_loss": 0.27739396864089017,
+          "brier": 0.07982710929148913,
+          "n": 3209660,
+          "pos_rate": 0.13185976084694329
+        }
+      },
+      "censored": {
+        "n": 12365947,
+        "metrics": {
+          "pr_auc": 0.9031321763625623,
+          "roc_auc": 0.9971483179932217,
+          "log_loss": 0.02507602320590776,
+          "brier": 0.007523231059775823,
+          "n": 12365947,
+          "pos_rate": 0.04422548471216964
+        }
+      }
+    },
+    "test": {
+      "full": {
+        "n": 7570430,
+        "metrics": {
+          "pr_auc": 0.5733963578410388,
+          "roc_auc": 0.8547870793231761,
+          "log_loss": 0.25863487885650815,
+          "brier": 0.07341687666039733,
+          "n": 7570430,
+          "pos_rate": 0.12499805162982816
+        }
+      },
+      "censored": {
+        "n": 32324462,
+        "metrics": {
+          "pr_auc": 0.8843452720489444,
+          "roc_auc": 0.9952526987985998,
+          "log_loss": 0.031612323132802385,
+          "brier": 0.00976005787847248,
+          "n": 32324462,
+          "pos_rate": 0.04168882996413057
+        }
+      }
+    },
+    "notes": "Censoring split by SessionDurationMin relative to T_MIN; probabilities calibrated if 16.1 was run."
+  }
+}

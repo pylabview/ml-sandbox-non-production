@@ -1,0 +1,39 @@
+{
+  "source": "../cache_data/session_features_2019-Oct_to_2019-Dec_T5_LEAKFREE_ENRICHED_COMBINED_TARGETS.parquet",
+  "target": "PurchaseInSession",
+  "predictors_core": [
+    "Breadth_T",
+    "CatSwitchRate_T",
+    "ViewPace_T",
+    "EarlyCart_T"
+  ],
+  "controls": [
+    "EventsPerMin",
+    "SessionDurationMin",
+    "DayPart",
+    "DayOfWeek",
+    "MeanLogPrice_1min"
+  ],
+  "categoricals": [
+    "DayPart",
+    "DayOfWeek"
+  ],
+  "numerics_present": [
+    "Breadth_T",
+    "CatSwitchRate_T",
+    "ViewPace_T",
+    "EventsPerMin",
+    "SessionDurationMin",
+    "MeanLogPrice_1min"
+  ],
+  "binaries_present": [
+    "EarlyCart_T"
+  ],
+  "ohe_cardinality": {
+    "DayPart": 4,
+    "DayOfWeek": 7
+  },
+  "rows": 38592257,
+  "base_rate": 0.061486193979274135,
+  "T": 5
+}
