@@ -25,7 +25,8 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Month scopes
 MONTHS_FULL = ["2019-Oct","2019-Nov","2019-Dec","2020-Jan","2020-Feb","2020-Mar","2020-Apr"]
-MONTHS      = ["2019-Oct","2019-Nov","2019-Dec","2020-Jan","2020-Feb","2020-Mar","2020-Apr"]  # starter focus
+# MONTHS      = ["2019-Oct","2019-Nov","2019-Dec","2020-Jan","2020-Feb","2020-Mar","2020-Apr"]  # starter focus
+MONTHS      = ["2020-Jan","2020-Feb","2020-Mar",]  # starter focus
 
 # Session feature window
 T_MIN = 5
@@ -55,7 +56,7 @@ LEAK_PAIRS = [
     ("2020-Feb","2020-Mar"),
     ("2020-Apr",),  # tail single
 ]
-LEAK_MONTHS = ["2019-Oct", "2019-Nov", "2019-Dec"]
-# LEAK_MONTHS   = ["2020-Jan", "2020-Feb", "2020-Mar"]
+#LEAK_MONTHS = ["2019-Oct", "2019-Nov", "2019-Dec"]
+LEAK_MONTHS   = [ "2020-Apr"]
 MONTHS_ORDERED = MONTHS_FULL
 WRITE_COMBINED = True
