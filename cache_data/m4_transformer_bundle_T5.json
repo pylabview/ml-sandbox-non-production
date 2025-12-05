@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2025-12-04T03:20:10Z",
+  "created_at_utc": "2025-12-05T03:40:30Z",
   "python": "3.12.10",
   "platform": "macOS-26.1-arm64-arm-64bit",
   "polars_version": "1.35.2",
@@ -15,11 +15,11 @@
     "x_columns_csv": "m4_X_columns_T5_LOCKED.csv"
   },
   "hashes": {
-    "state_json_sha256": "0a1d2d6a61e9d5a015b0737b1db84ec1e4097bcf7aaea8a12365c93ad3178d3e",
+    "state_json_sha256": "572c84ad7b621deee02450982acb988a4eac389eb8162664ba8bc51dc3ce2892",
     "schema_manifest_sha256": "813f330bfab670b71324598a4236cfbed89accc432fe41fa86083134c535883d",
-    "train_xy_sha256": "9c13a2f939581ccaa2e2e0c242202fd36dd72dc475f64502a79230820e39c6cf",
-    "val_xy_sha256": "aa2b4c4ba6f3751ac8d97566898d2afc7023e2a4ada1f7ad0e8dc8f55e117878",
-    "test_xy_sha256": "ad7c221973c49543c856ebd4f86ea4908da62d9aab277fd32c491a3244b23602"
+    "train_xy_sha256": "92bec9d9734facd5e247372fadc732ce01101dca5dd2dfc4911b2ac54ada2ef5",
+    "val_xy_sha256": "2972c76549f581d13557d13bf1d1215c78993c1479b17c965a979b16e6cb43fb",
+    "test_xy_sha256": "9bf42bb50bdbf30f47e565eb026e6f0fff04d1a270902ee8074db558469ac0df"
   },
   "feature_order": {
     "n_features": 21,

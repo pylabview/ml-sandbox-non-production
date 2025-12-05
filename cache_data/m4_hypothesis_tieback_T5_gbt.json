@@ -4,12 +4,12 @@
   "model_name": "HistGB",
   "H1_inverted_U": {
     "pdp_peak_breadth": 1,
-    "drop_peak_to_tail": 0.3231229707598686,
+    "drop_peak_to_tail": 0.3227502703666687,
     "drop_peak_to_b1": 0.0,
-    "u_score": 0.1615614853799343,
+    "u_score": 0.16137513518333435,
     "ice_peak_breadths": {
       "n_rows": 2000,
-      "share_peak_in_[1,2,3]": 0.9995,
+      "share_peak_in_[1,2,3]": 1.0,
       "median_peak": 1,
       "iqr_peak": [
         1,
@@ -26,8 +26,8 @@
   },
   "H2_slack_plateau": {
     "turn_slack": 0.0,
-    "early_gain": -0.2689735591411591,
-    "late_gain": -0.015124864876270298,
+    "early_gain": -0.26868525892496115,
+    "late_gain": -0.01565191894769669,
     "evidence": "moderate",
     "checks": {
       "pos_early": false,
@@ -36,12 +36,12 @@
     }
   },
   "H3_interaction": {
-    "p_fast_focused": 0.239679088195165,
-    "p_slow_scatter": 0.10388245185216267,
-    "delta_slack_low": -0.3552359938621521,
-    "delta_slack_high": -0.004793812831242879,
-    "synergy": -0.35044218103090924,
-    "fast_vs_wide_gap_at_high_slack": 0.1405904491742452,
+    "p_fast_focused": 0.23396509885787964,
+    "p_slow_scatter": 0.10273990035057068,
+    "delta_slack_low": -0.36186204353968304,
+    "delta_slack_high": -0.004199452698230743,
+    "synergy": -0.3576625908414523,
+    "fast_vs_wide_gap_at_high_slack": 0.1354246512055397,
     "evidence": "moderate",
     "checks": {
       "ff_better": true,
