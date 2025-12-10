@@ -16,14 +16,14 @@
     "best_iteration": null
   },
   "metrics_val": {
-    "pr_auc": 0.7990545692754013,
-    "roc_auc": 0.981093584015488,
-    "log_loss": 0.19675597873232478,
+    "pr_auc": 0.7986334774025069,
+    "roc_auc": 0.981023166040605,
+    "log_loss": 0.19718878830380648,
     "n": 15575607
   },
   "artifacts": {
     "model_file": "m4_gbt_model.pkl",
     "feature_importance": "m4_gbt_feature_importance.json"
   },
-  "runtime_min": 4.79
+  "runtime_min": 4.61
 }

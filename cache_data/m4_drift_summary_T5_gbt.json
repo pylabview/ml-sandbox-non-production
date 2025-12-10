@@ -22,9 +22,9 @@
     }
   ],
   "commentary": [
-    "Baseline (2019-12) \u2014 PR-AUC=0.79743, ROC-AUC=0.98110, LogLoss=0.07706, Brier=0.02242, base rate=6.23%.",
-    "2020-01 \u2014 \u0394PR-AUC=-0.0220, \u0394ROC-AUC=+0.0004, \u0394LogLoss=-0.0091, \u0394Brier=-0.00289 (-12.9%), base rate shift=-1.22pp.",
-    "2020-02 \u2014 \u0394PR-AUC=-0.0160, \u0394ROC-AUC=-0.0006, \u0394LogLoss=-0.0003, \u0394Brier=+0.00057 (+2.5%), base rate shift=-0.63pp.",
-    "2020-03 \u2014 \u0394PR-AUC=+0.0067, \u0394ROC-AUC=-0.0002, \u0394LogLoss=+0.0041, \u0394Brier=+0.00141 (+6.3%), base rate shift=+0.49pp."
+    "Baseline (2019-12) \u2014 PR-AUC=0.79718, ROC-AUC=0.98103, LogLoss=0.07719, Brier=0.02246, base rate=6.23%.",
+    "2020-01 \u2014 \u0394PR-AUC=-0.0218, \u0394ROC-AUC=+0.0004, \u0394LogLoss=-0.0093, \u0394Brier=-0.00300 (-13.3%), base rate shift=-1.22pp.",
+    "2020-02 \u2014 \u0394PR-AUC=-0.0150, \u0394ROC-AUC=-0.0007, \u0394LogLoss=-0.0008, \u0394Brier=+0.00039 (+1.7%), base rate shift=-0.63pp.",
+    "2020-03 \u2014 \u0394PR-AUC=+0.0066, \u0394ROC-AUC=-0.0002, \u0394LogLoss=+0.0041, \u0394Brier=+0.00140 (+6.2%), base rate shift=+0.49pp."
   ]
 }

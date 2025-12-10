@@ -16,7 +16,7 @@
   "metrics_val": {
     "pr_auc": 0.06083981080552704,
     "roc_auc": 0.48416078611641084,
-    "log_loss": 0.6575818662866652
+    "log_loss": 0.6693177651795239
   },
   "model_file": "m4_gam_breadth_model.pkl"
 }
