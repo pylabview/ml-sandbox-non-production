@@ -125,13 +125,13 @@ Table 1 and the bootstrap deltas show that HistGB substantially outperforms Base
 
 We visualize here how the final HistGB model with isotonic calibration behaves on realistic data (≈3M validation and 5M test sessions, with 6.2% and 5.8% purchase rates). The ROC curves are near‑perfect (ROC‑AUC ≈ 0.981 on both splits) and show that the model can capture over 90% of buyers while keeping false positives under about 10%. Precision–recall curves tell the same story: AP is ≈0.795 on validation and ≈0.787 on test, meaning the top‑scored sessions have purchase probabilities many times above the 6% baseline. Calibration plots show that raw scores under‑predict high‑probability sessions, and isotonic calibration largely fixes this, cutting the Brier score from ~0.065 to ~0.022. The 2D surface for Breadth_T × PaceSlack_T shows that “fast‑focused” behavior (low breadth, moderate slack) is most purchase‑prone, while broad, scattered exploration lowers conversion and slack has diminishing or negative returns at extreme levels.
 
-<img src="cache_data/m4_vis_ROC_VAL_T5_gbt.png" alt="m4_vis_ROC_VAL_T5_gbt" style="zoom: 43%;" /> <img src="/Users/rod/MyApps/GitHub_Repos/ml-sandbox-non-production/cache_data/m4_vis_PR_VAL_T5_gbt.png" alt="m4_vis_PR_VAL_T5_gbt" style="zoom: 43%;" />
+<img src="cache_data/m4_vis_ROC_VAL_T5_gbt.png" alt="m4_vis_ROC_VAL_T5_gbt" style="zoom: 43%;" /> <img src="cache_data/m4_vis_PR_VAL_T5_gbt.png" alt="m4_vis_PR_VAL_T5_gbt" style="zoom: 43%;" />
 
-<img src="cache_data/m4_vis_ROC_TEST_T5_gbt.png" alt="m4_vis_ROC_TEST_T5_gbt" style="zoom: 43%;" /> <img src="/Users/rod/MyApps/GitHub_Repos/ml-sandbox-non-production/cache_data/m4_vis_PR_TEST_T5_gbt.png" alt="m4_vis_PR_TEST_T5_gbt" style="zoom: 43%;" />
+<img src="cache_data/m4_vis_ROC_TEST_T5_gbt.png" alt="m4_vis_ROC_TEST_T5_gbt" style="zoom: 43%;" /> <img src="cache_data/m4_vis_PR_TEST_T5_gbt.png" alt="m4_vis_PR_TEST_T5_gbt" style="zoom: 43%;" />
 
 
 
-<img src="cache_data/m4_vis_CAL_VAL_T5_gbt.png" alt="m4_vis_CAL_VAL_T5_gbt" style="zoom:50%;" /><img src="/Users/rod/MyApps/GitHub_Repos/ml-sandbox-non-production/cache_data/m4_vis_CAL_TEST_T5_gbt.png" alt="m4_vis_CAL_TEST_T5_gbt" style="zoom:50%;" />
+<img src="cache_data/m4_vis_CAL_VAL_T5_gbt.png" alt="m4_vis_CAL_VAL_T5_gbt" style="zoom:50%;" /><img src="cache_data/m4_vis_CAL_TEST_T5_gbt.png" alt="m4_vis_CAL_TEST_T5_gbt" style="zoom:50%;" />
 
 <img src="cache_data/m4_vis_SURF_Breadth_PaceSlack_T5_gbt.png" alt="m4_vis_SURF_Breadth_PaceSlack_T5_gbt" style="zoom:50%;" />
 
