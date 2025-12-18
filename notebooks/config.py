@@ -57,6 +57,7 @@ LEAK_PAIRS = [
     ("2020-Apr",),  # tail single
 ]
 #LEAK_MONTHS = ["2019-Oct", "2019-Nov", "2019-Dec"]
-LEAK_MONTHS   = [ "2020-Apr"]
+LEAK_MONTHS = MONTHS_FULL
+# LEAK_MONTHS   = [ "2020-Apr"]
 MONTHS_ORDERED = MONTHS_FULL
 WRITE_COMBINED = True
